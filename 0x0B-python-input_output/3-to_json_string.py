@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ Definition"""
-
 import json
 
 def to_json_string(my_obj):

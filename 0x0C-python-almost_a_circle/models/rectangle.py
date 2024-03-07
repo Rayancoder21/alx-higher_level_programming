@@ -126,7 +126,7 @@ class Rectangle(Base):
                     self.y = v
 
     def to_dictionary(self):
-        """ """
+        """ Rectangle instance to dictionary representation"""
         return {
                 "id": self.id,
                 "width": self.width,

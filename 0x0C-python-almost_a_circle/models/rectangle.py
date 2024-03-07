@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Difinition"""
+import Base
 
 
 class Rectangle(Base):

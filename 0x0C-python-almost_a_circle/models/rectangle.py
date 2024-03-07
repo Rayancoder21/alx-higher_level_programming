@@ -14,3 +14,19 @@ class Rectangle(Base):
         self.x = x
         self.y = y
         super().__init__(id)
+
+    def width(self):
+        """Set/get the width of the Rectangle."""
+        return self.__width
+
+    def height(self):
+        """Set/get the height of the Rectangle."""
+        return self.__height
+
+    def x(self):
+        """Set/get the x coordinate of the Rectangle."""
+        return self.__x
+
+    def y(self):
+        """Set/get the y coordinate of the Rectangle."""
+        return self.__y

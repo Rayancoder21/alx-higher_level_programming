@@ -13,8 +13,8 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
         self.__height = height
 
-    def area():
-        """prints and returns rectangle width and height"""
+    def area(self):
+        """Method to redefine a area method in the parent class"""
         return self.__width * self.__height
 
     def __str__(self):
